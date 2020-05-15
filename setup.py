@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
+
 sources = [
     'src/python/core.c',
     'src/libubqhash/io.c',
@@ -40,9 +41,9 @@ setup(
     author="Matthew Wampler-Doty",
     author_email="matthew.wampler.doty@gmail.com",
     license='GPL',
-    version='0.1.23',
+    version='0.1.24',
     url='https://github.com/ethereum/ubqhash',
-    download_url='https://github.com/ethereum/ubqhash/tarball/v23',
+    download_url='https://github.com/maxmalysh/ubqhash/tarball/master',
     description=('Python wrappers for ubqhash, the ethereum proof of work'
                  'hashing function'),
     ext_modules=[pyubqhash],

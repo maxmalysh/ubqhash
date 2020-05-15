@@ -20,3 +20,10 @@ The main thing above all is code consistency.
 - Keep the line lengths reasonable. No hard limit on 80 characters but don't go further
   than 110. Some people work with multiple buffers next to each other.
   Make them like you :)
+
+### Python: How to Build
+
+    pyenv local 3.8.2
+    pip3 install --upgrade pip wheel
+    python3 setup.py build 
+    python3 setup.py bdist_wheel
