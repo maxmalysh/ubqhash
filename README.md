@@ -26,4 +26,4 @@ The main thing above all is code consistency.
     pyenv local 3.8.2
     pip3 install --upgrade pip wheel
     python3 setup.py build 
-    python3 setup.py bdist_wheel
+    python3 setup.py sdist bdist_wheel

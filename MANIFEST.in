@@ -15,3 +15,9 @@ include src/libubqhash/fnv.h
 include src/libubqhash/internal.h
 include src/libubqhash/sha3.h
 include src/libubqhash/util.h
+#include src/libubqhash/blake2.h
+#include src/libubqhash/util.h
+#include src/libubqhash/io.h
+#include src/libubqhash/mmap.h
+#include src/libubqhash/blake2-impl.h
+include src/libubqhash/*.h
