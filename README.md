@@ -21,9 +21,16 @@ The main thing above all is code consistency.
   than 110. Some people work with multiple buffers next to each other.
   Make them like you :)
 
-### Python: How to Build
+### Python
+
+To install: 
+
+    pip3 install pyubqhash
+    
+To build:
 
     pyenv local 3.8.2
-    pip3 install --upgrade pip wheel
+    pip3 install --upgrade pip wheel twine
     python3 setup.py build 
     python3 setup.py sdist bdist_wheel
+    twine upload dist/*

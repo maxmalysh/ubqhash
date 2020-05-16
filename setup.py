@@ -38,13 +38,15 @@ pyubqhash = Extension('pyubqhash',
 
 setup(
     name='pyubqhash',
-    author="Matthew Wampler-Doty",
-    author_email="matthew.wampler.doty@gmail.com",
+    author="Max Malysh",
+    author_email="github@maxmalysh.com",
     license='GPL',
     version='0.1.25',
     url='https://github.com/maxmalysh/ubqhash',
     download_url='https://github.com/maxmalysh/ubqhash/tarball/master',
-    description=('Python wrappers for ubqhash, the ethereum proof of work'
-                 'hashing function'),
+    description='Python wrappers for ubqhash',
     ext_modules=[pyubqhash],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+    ],
 )
